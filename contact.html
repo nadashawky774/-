@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>اتصل بي - مدونة ندى</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+      }
+
+      header,
+      footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      main {
+        padding: 20px;
+        max-width: 600px;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #4caf50;
+        text-align: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      a {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: #4caf50;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>اتصل بي</h1>
+    </header>
+
+    <main>
+      <h2>راسلني</h2>
+      <form>
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك" />
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@email.com"
+        />
+
+        <label for="message">الرسالة:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="اكتب رسالتك هنا..."
+        ></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+
+      <a href="index.html">⬅ العودة إلى الصفحة الرئيسية</a>
+    </main>
+
+    <footer>
+      <p>© ندى 2025 - جميع الحقوق محفوظة</p>
+    </footer>
+  </body>
+</html>

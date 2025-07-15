@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كل المقالات - مدونة ندى</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+      }
+
+      header,
+      footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .articles-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      .article-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        padding: 15px;
+      }
+
+      .article-card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .article-card h3 {
+        color: #4caf50;
+        margin: 10px 0;
+      }
+
+      .article-card p {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      .article-card a {
+        display: inline-block;
+        margin-top: 10px;
+        color: #4caf50;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>كل المقالات</h1>
+      <p>تصفح جميع المقالات المنشورة في المدونة</p>
+    </header>
+
+    <main>
+      <div class="articles-container">
+        <div class="article-card">
+          <img src="image2/22.png" alt="HTML" />
+          <h3>البرمجة بـ HTML</h3>
+          <p>مقدمة مبسطة عن لغة HTML، أهم الوسوم، وكيفية بناء صفحة ويب.</p>
+          <a href="details.html">اقرأ المزيد</a>
+        </div>
+
+        <div class="article-card">
+          <img src="image2/23.jfif" alt="CSS" />
+          <h3>البرمجة بـ CSS</h3>
+          <p>كيفية التحكم في شكل صفحات الويب باستخدام CSS، الخصائص والأنواع.</p>
+          <a href="details-css.html">اقرأ المزيد</a>
+        </div>
+
+        <div class="article-card">
+          <img src="image2/24.jpg" alt="JavaScript" />
+          <h3>البرمجة بـ JavaScript</h3>
+          <p>إضافة التفاعلية لموقعك، وتعلم أساسيات لغة JavaScript.</p>
+          <a href="details-js.html">اقرأ المزيد</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© ندى 2025 - جميع الحقوق محفوظة</p>
+    </footer>
+  </body>
+</html>
